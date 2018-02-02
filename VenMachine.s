@@ -1,4 +1,4 @@
-@ Filename: Lab3vg.s
+@ Filename: VenMachine.s
 
 @ Author: Venika Gaur
 @ Purpose: Have a vending machine
@@ -6,9 +6,9 @@
 
 @ Use these command to assemble, link and run this program
 
-@    as -o Lab3vg.o Lab3vg.s
-@    gcc -o Lab3vg Lab3vg.o
-@    ./Lab3vg
+@    as -o VenMachine.o VenMachine.s
+@    gcc -o VenMachine VenMachine.o
+@    ./VenMachine.s
 
 @ Code
 @ Have to use C compiler to link because of C library uses.
